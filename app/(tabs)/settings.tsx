@@ -10,7 +10,7 @@ const Page = (props: Props) => {
   const [isEnabled, setIsEnabled] = useState(false);
   const toggleSwitch = () => setIsEnabled((previousState) => !previousState);
 
-  const GITHUB_USERNAME = "username";
+  const GITHUB_USERNAME = "thaminduthathsara1";
 
   const handleAbout = () => {
     Linking.openURL(`https://github.com/${GITHUB_USERNAME}`)
